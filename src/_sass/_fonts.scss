@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+//
+// Fonts and related mixins
+//
+
+$header-font-family: 'Muli', 'Helvetica Neue', Helvetica, sans-serif !default;
+$body-font-family: 'Muli', Arial, sans-serif !default;
+
+// Preset sizes
+$h1FontSize: 28px;
+$h2FontSize: 24px;
+$h3FontSize: 22px;
+$h4FontSize: 20px;
+$h5FontSize: 18px;
+$h6FontSize: 16px;
+$font-size-base: 14px;
+
+$base-font-weight: 400 !default;
+$small-font-size:  $font-size-base * 0.875 !default;
+$base-line-height: 1.75 !default;
+
+$text-color: $color-gray-dark;
+
+@mixin relative-font-size($ratio) {
+  font-size: $font-size-base * $ratio;
+}
+
+body {
+  font-family: $body-font-family;
+  font-weight: 300;
+  color: $color-gray-darkest;
+
+  p {
+    &.muted {
+      opacity: .9;
+    }
+
+    &.lead {
+      font-weight: 300;
+      padding: 0.75em 0;
+    }
+  }
+}
+// TODO: copy responsive mixin
+h1 {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.hero {
+  opacity: 0.96;
+  text-shadow: 0.15rem 0.15rem 0.15rem rgba(0, 0, 0, 0.95);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  letter-spacing: 0.15rem;
+}
+
+h3, h4, h5, h6 {
+  text-transform: none !important;
+}
+
+
+.text-primary {
+  color: lighten($color-tertiary, 2);
+}
+
+.text-white {
+  color:  #fff;
+}
+
+section h2.section-heading {
+  margin: 1em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: darken($color-primary, 10%);
+  text-shadow: 0.05rem 0.05rem 0.25rem rgba(255, 255, 255, 0.95);
+}
+
+section h3.section-subheading {
+  margin-bottom: 75px;
+  text-transform: none;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 0.015em;
+}
+
+header {
+  font-family: $header-font-family;
+}
+
+a:not(.navbar-link):not(.navbar-brand):not(.btn) {
+  color: $color-tertiary !important;
+  font-weight: 500;
+  &:visited {
+    color: $color-tertiary !important;
+  }
+  &:hover {
+  }
+}
+.post-meta {
+  // color: lighten($color-primary, 30);
+  color: lighten($color-gray, 10);
+  letter-spacing: 2px;
+}
+
+
+// Headings
+
+h1, h2, h3 {
+  letter-spacing: 1.5px;
+}
+h4, h5, h6 {
+  font-weight: 600;
+}
+
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit;
+}
+
+blockquote {
+   font-size: 2.5rem !important;
+   line-height: 4.25rem;
+}
+
+footer {
+  color: $color-gray-light;
+  font-size: .9em !important;
+}

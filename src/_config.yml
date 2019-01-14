@@ -1,0 +1,87 @@
+#
+#
+# https://jekyllrb.com/docs/configuration/
+#
+#
+url: https://themusicalconversation.com
+baseurl: ''
+
+# Custom vars
+#google_analytics: UA-
+
+#
+# Meta tags and User-facing descriptions
+#
+title: The Musical Conversation – Get the scoop on up and coming artists.
+copyright: The Musical Conversation
+product_name: The Musical Conversation
+abridged: Get the scoop on up and coming artists.
+email: unknownendeavorsproductions@gmail.com
+description: ""
+
+hero_text: Showcasing local artists
+hero_cta: WATCH LATEST EPISODE
+
+app_link: ''
+
+# Blog-related
+show_excerpts: true
+
+# Site-levelw network handles
+# (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    handle: uknown_endeavors
+    url: https://www.instagram.com/unknown_endeavors/
+  - title: twitter
+    handle: unknownendvrs
+    url: https://twitter.com/unknownendvrs
+  - title: facebook
+    url: https://www.facebook.com/pg/unknownendeavors/
+
+# Create team member pages from src/_team/*.md files
+collections:
+  # team:
+  #   output: true
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-minifier
+
+# # Postal address (add as many lines as necessary)
+# address:
+# #  - line: Los Angeles, CA 90210
+
+# Directory / Files - what does this do?
+# defaults:
+#   - scope:
+#       path: "_assets"
+#     values:
+#       image: true
+
+jekyll-minifier:
+  preserve_php: true                # Default: false
+  remove_spaces_inside_tags: true   # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_comments: true             # Default: true
+  remove_intertag_spaces: true      # Default: false
+  remove_quotes: false              # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  simple_doctype: false             # Default: false
+  remove_script_attributes: false   # Default: false
+  remove_style_attributes: false    # Default: false
+  remove_link_attributes: false     # Default: false
+  remove_form_attributes: false     # Default: false
+  remove_input_attributes: false    # Default: false
+  remove_javascript_protocol: false # Default: false
+  remove_http_protocol: false       # Default: false
+  remove_https_protocol: false      # Default: false
+  preserve_line_breaks: false       # Default: false
+  simple_boolean_attributes: false  # Default: false
+  compress_js_templates: false      # Default: false

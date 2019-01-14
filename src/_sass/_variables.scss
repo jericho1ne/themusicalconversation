@@ -1,0 +1,22 @@
+//
+// Variables
+//
+
+$spacing-unit: 1.5rem !default;
+
+$background-color: #fafafa !default;
+
+$color-primary: #222;
+$color-accent: #cc3366;
+$color-secondary: lighten($color-accent, 20%);
+$color-tertiary: darken($color-accent, 10%);
+
+$color-gray: #dad9d7 !default;
+$color-gray-light: lighten($color-gray, 10%);
+$color-gray-lighter: lighten($color-gray, 20%);
+$color-gray-lightest: lighten($color-gray, 30%);
+$color-gray-dark: darken($color-gray, 15%);
+$color-gray-darker: darken($color-gray, 30%);
+$color-gray-darkest: darken($color-gray, 55%);
+
+

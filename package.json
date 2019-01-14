@@ -1,0 +1,24 @@
+{
+  "name": "themusicalconversation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "gems": "cd src && bundle install",
+    "serve": "jekyll serve --source src --destination dist --livereload",
+    "start": "npm run serve",
+    "build": "jekyll build --source src --destination dist",
+    "deploy": "jekyll build --source src --destination dist && ./deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jericho1ne/themusicalconversation.git"
+  },
+  "author": "Mihai Peteu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jericho1ne/themusicalconversation/issues"
+  },
+  "homepage": "https://github.com/jericho1ne/themusicalconversation#readme"
+}
