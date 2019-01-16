@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Muli:300,400,700');
 //
 // Fonts and related mixins
 //
-
 $header-font-family: 'Muli', 'Helvetica Neue', Helvetica, sans-serif !default;
 $body-font-family: 'Muli', Arial, sans-serif !default;
+$secondary-font-family: 'Paytone One', 'Helvetica Neue', Helvetica, sans-serif !default;
 
 // Preset sizes
 $h1FontSize: 28px;
@@ -17,7 +17,7 @@ $font-size-base: 14px;
 
 $base-font-weight: 400 !default;
 $small-font-size:  $font-size-base * 0.875 !default;
-$base-line-height: 1.75 !default;
+$base-line-height: 2.25 !default;
 
 $text-color: $color-gray-dark;
 
@@ -54,7 +54,6 @@ h1 {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
-  letter-spacing: 0.15rem;
 }
 
 h3, h4, h5, h6 {
@@ -71,17 +70,19 @@ h3, h4, h5, h6 {
 }
 
 section h2.section-heading {
+  color: darken($color-gray-darker, 10);
+  font-family: $header-font-family;
   margin: 1em 0;
   font-weight: 700;
   text-transform: uppercase;
-  color: darken($color-primary, 10%);
-  text-shadow: 0.05rem 0.05rem 0.25rem rgba(255, 255, 255, 0.95);
 }
 
 section h3.section-subheading {
-  margin-bottom: 75px;
+  color: $color-gray-darkest;
+  font-family: $secondary-font-family;
+  margin: 2rem 0;
   text-transform: none;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 200;
   letter-spacing: 0.015em;
 }
@@ -105,9 +106,7 @@ a:not(.navbar-link):not(.navbar-brand):not(.btn) {
   letter-spacing: 2px;
 }
 
-
 // Headings
-
 h1, h2, h3 {
   letter-spacing: 1.5px;
 }
@@ -124,8 +123,9 @@ ul, ol, dl, figure,
 }
 
 blockquote {
-   font-size: 2.5rem !important;
-   line-height: 4.25rem;
+  font-size: 2.5rem !important;
+  line-height: 4.25rem;
+  font-style: normal !important;
 }
 
 footer {

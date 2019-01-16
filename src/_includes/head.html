@@ -1,26 +1,35 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{ site.description }}">
 
-    <!-- ICONS -->
-    <!-- https://realfavicongenerator.net/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Open Graph -->
+  <!-- https://realfavicongenerator.net/social -->
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="628">
+  <meta property="og:description" content="Bringing together talented artists from Los Angeles and beyond.">
+  <meta property="og:title" content="The Musical Conversation">
+  <meta property="og:url" content="https://themusicalconversation.com">
+  <meta property="og:image" content="https://themusicalconversation.com/musical-conversation-og.png/og-image.jpg">
 
-    {% comment %} Custom CSS + Bootstrap Core CSS - Uses http://bootswatch.com/flatly/ {% endcomment %}
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/vendor.css' | relative_url }}">
+  <!-- ICONS -->
+  <!-- https://realfavicongenerator.net/ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-    {% comment %} FA {% endcomment %}
-    <link rel="stylesheet" href="{{ 'assets/css/fontawesome.min.css' | relative_url }}">
+  {% comment %} Custom CSS + Bootstrap Core CSS - Uses http://bootswatch.com/flatly/ {% endcomment %}
+  <link rel="stylesheet" type="text/css" href="{{ 'assets/css/vendor.css' | relative_url }}">
 
-    {% comment %} Local CSS {% endcomment %}
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/main.css' | relative_url }}">
+  {% comment %} FA {% endcomment %}
+  <link rel="stylesheet" href="{{ 'assets/css/fontawesome.min.css' | relative_url }}">
+
+  {% comment %} Local CSS {% endcomment %}
+   <link rel="stylesheet" type="text/css" href="{{ 'assets/css/main.css' | relative_url }}">
 </head>

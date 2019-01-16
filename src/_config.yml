@@ -38,6 +38,8 @@ social:
     url: https://twitter.com/unknownendvrs
   - title: facebook
     url: https://www.facebook.com/pg/unknownendeavors/
+  - title: youtube
+    url: https://www.youtube.com/channel/UC5SzlcR3h2gW9bl7tqX2Gzg/videos
 
 # Create team member pages from src/_team/*.md files
 collections:

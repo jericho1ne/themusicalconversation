@@ -1,0 +1,75 @@
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-alt">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="section-heading">Artist Showcase</h2>
+        <h3 class="section-subheading text-muted">Hutchinson</h3>
+
+        <p class="lead">
+          Our most recent jam session features Hutchinson, performing at The Musician's Choice Studios in Culver City.
+        </p>
+      </div>
+      <div class="col-sm-12">
+          <h4>
+            Hutchison is composed of
+          </h4>
+          <ul>
+            <li>Daniel Sunshine - Percussion</li>
+            <li>Talia Arnold – Guitar & Vocals</li>
+            <li>Joseph Watson – Guitar</li>
+            <li>Arthur Walton – Guitar</li>
+            <li>Paul Cline – Guitar</li>
+          </ul>
+          <hr class="spacer">
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="{{ 'assets/img/hutchinson-band-01.jpg' | relative_url }}"
+          class="photo" alt="{{ site.title }}" title="{{ site.title }}">
+      </div>
+      <div class="col-sm-6">
+        <img src="{{ 'assets/img/hutchinson-band-02.jpg' | relative_url }}"
+          class="photo" alt="{{ site.title }}" title="{{ site.title }}">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+          <img src="{{ 'assets/img/hutchinson-band-03.jpg' | relative_url }}"
+            class="photo" alt="{{ site.title }}" title="{{ site.title }}">
+        </div>
+        <div class="col-sm-6">
+        <img src="{{ 'assets/img/hutchinson-band-04.jpg' | relative_url }}"
+              class="photo" alt="{{ site.title }}" title="{{ site.title }}">
+        </div>
+    </div>
+
+    <!--
+    <div class="row">
+      {% for client in site.clients %}
+        <div
+          id="{{ client.permalink }}"
+          class="col-lg-4 col-md-4 col-sm-6 col-xs-12 portfolio-item"
+        >
+          <a href="{{ client.permalink }}" class="portfolio-link">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-rocket fa-3x"></i>
+              </div>
+            </div>
+            <img src="assets/img/portfolio/{{ client.image }}-thumb.jpg" class="img-responsive img-centered" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h5>{{ client.title }}</h5>
+            <p class="text-muted">{{ client.subtitle }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  -->
+</section>
