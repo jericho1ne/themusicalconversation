@@ -313,33 +313,3 @@ section {
   padding: 4.5em 0;
   background-color: lighten($color-gray-lightest, 10);
 }
-
-ul.social-buttons {
-  margin-bottom: 0;
-
-  li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 24px !important;
-    padding: 8px;
-    outline: 0;
-    color: #fff;
-    background-color: $color-tertiary;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .2s;
-
-    // Icon Color
-    i {
-      color: #fff !important;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: lighten($color-tertiary, 25);
-    }
-  }
-}

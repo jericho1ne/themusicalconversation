@@ -19,7 +19,7 @@ abridged: Get the scoop on up and coming artists.
 email: unknownendeavorsproductions@gmail.com
 description: ""
 
-hero_text: Showcasing local artists
+hero_text: Go behind the performance.
 hero_cta: WATCH LATEST EPISODE
 
 app_link: ''
@@ -31,13 +31,16 @@ show_excerpts: true
 # (eg: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
-    handle: uknown_endeavors
-    url: https://www.instagram.com/unknown_endeavors/
-  - title: twitter
-    handle: unknownendvrs
-    url: https://twitter.com/unknownendvrs
+    handle: themusicalconversation
+    url: https://www.instagram.com/themusicalconversation/
+  - title: soundcloud
+    handle: themusicalconversation
+    url: https://www.soundcloud.com/themusicalconversation/
+  # - title: twitter
+  #   handle: unknownendvrs
+  #   url: https://twitter.com/unknownendvrs
   - title: facebook
-    url: https://www.facebook.com/pg/unknownendeavors/
+    url: http://fb.me/themusicalconversation
   - title: youtube
     url: https://www.youtube.com/channel/UC5SzlcR3h2gW9bl7tqX2Gzg/videos
 

@@ -76,7 +76,7 @@ ul.social-media-list {
   &.navbar-default {
     // background: lighten($color-green, 20) !important;
     background: $color-primary;
-    opacity: .9;
+    opacity: .96;
   }
 
   border: 0;
@@ -114,15 +114,18 @@ ul.social-media-list {
     text-align: left;
 
     >.active>a {
-      border-radius: 6px;
+      border-radius: 12px;
       color: #fff;
-      background-color: $color-tertiary;
+      // background-color: $color-tertiary;
+      background-color: transparent;
+      box-shadow: inset 0px 0px 4px 2px $color-tertiary;
     }
 
     >.active>a:hover,
     >.active>a:focus {
-        color: #fff;
-        background-color: $color-tertiary;
+      color: #fff;
+      background-color: transparent;
+      box-shadow: inset 0px 0px 4px 2px $color-tertiary;
     }
 
     >li {
