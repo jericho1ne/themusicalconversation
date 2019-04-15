@@ -4,15 +4,18 @@ ul.social-media-list {
   margin: 1.5rem 2rem 1rem 0;
   padding-top: .75rem;
 
-  > li {
+  >li {
     list-style: none;
     margin-left: 0;
     line-height: 1.75rem;
+
     a {
       font-size: 0.75rem;
+
       span.username {
         color: $color-gray;
       }
+
       &:hover {
         text-decoration: none;
       }
@@ -36,14 +39,15 @@ ul.social-media-list {
 // Navigation bar
 //
 .navbar {
-  @media screen  and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     .navbar-collapse {
       border: 0;
       transition: all 0.35s;
       background: $color-accent;
     }
   }
-  @media screen  and (min-width: 768px) {
+
+  @media screen and (min-width: 768px) {
     .navbar-collapse {
       border-bottom-left-radius: none;
       border-bottom-right-radius: none;
@@ -66,12 +70,13 @@ ul.social-media-list {
     }
 
     &:hover {
-      background: lighten($color-tertiary,12);
+      background: lighten($color-tertiary, 12);
+
       .icon-bar {
-        background: darken($color-tertiary,2);
+        background: darken($color-tertiary, 2);
       }
     }
-    }
+  }
 
   &.navbar-default {
     // background: lighten($color-green, 20) !important;
@@ -91,10 +96,10 @@ ul.social-media-list {
   }
 
   .navbar-brand {
-    // font-family: $header-font-family;
     color: $color-secondary;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 16px;
     height: auto;
     text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.5);
 
@@ -132,7 +137,7 @@ ul.social-media-list {
       list-style: none;
       margin-left: 0 !important;
 
-      > .navbar-link {
+      >.navbar-link {
         text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.85);
         color: $color-gray-lightest;
         font-family: $header-font-family;
@@ -152,4 +157,3 @@ ul.social-media-list {
     max-width: none;
   }
 }
-
