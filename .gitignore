@@ -1,6 +1,10 @@
 node_modules
 *.sublime-workspace
-dist/
+# dist/
 .sass-cache
 .DS_Store
 src/.DS_Store
+
+# Jekyll
+src/.jekyll-cache/
+src/Gemfile.lock
