@@ -418,7 +418,7 @@ header .banner-top, header .banner-cta { position: absolute; width: auto; text-a
 
 .video-overlay { padding-bottom: 0px !important; background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100, 0)), to(rgba(0, 0, 0, 0.4)), color-stop(0, rgba(20, 20, 20, 0.45))); opacity: 1; min-width: 100%; min-height: 100vh; width: auto; height: auto; z-index: 5; }
 
-.video-wrapper { position: absolute; margin: 0px; padding: 0px; top: 0; left: 0; background-image: url("../img/header-hutch.jpg"); background-position: center center; background-repeat: none; background-size: cover; min-width: 100%; min-height: 100%; overflow: hidden; }
+.video-wrapper { position: absolute; margin: 0px; padding: 0px; top: 0; left: 0; background-image: url("../img/header-hutchinson.jpg"); background-position: center center; background-repeat: none; background-size: cover; min-width: 100%; min-height: 100%; overflow: hidden; }
 
 .video-wrapper video { position: absolute; left: 50%; transform: translate(-50%, 0); min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: 1; background: rgba(0, 0, 0, 0); }
 
